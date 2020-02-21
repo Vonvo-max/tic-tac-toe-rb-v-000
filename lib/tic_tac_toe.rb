@@ -126,7 +126,7 @@ def play(board)
     puts "Congratulations #{winner(board)}!"
     return
   else draw?(board)
-    puts "Cat's Game!"   # the if statement was evaluating to true when it was the over method,
+    puts "It's a tie game!"   # the if statement was evaluating to true when it was the over method,
     return
   end
 end
